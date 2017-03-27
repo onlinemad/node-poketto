@@ -1,0 +1,25 @@
+{
+  "name": "node-poketto",
+  "version": "0.0.1",
+  "description": "useful Node.js function collection",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinemad/node-poketto.git"
+  },
+  "author": "Ian Wu <onlinemad@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/onlinemad/node-poketto/issues"
+  },
+  "homepage": "https://github.com/onlinemad/node-poketto#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
