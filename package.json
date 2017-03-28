@@ -1,5 +1,5 @@
 {
-  "name": "node-poketto",
+  "name": "poketto",
   "version": "0.0.1",
   "description": "useful Node.js function collection",
   "main": "index.js",
