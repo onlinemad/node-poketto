@@ -52,4 +52,15 @@ suite('poketto', () => {
       assert.match(str, /[a-z]{10}/)
     })
   })
+  suite('load_config', () => {
+    test('should load default config file', () => {
+      let config = p.load_config()
+      assert.deepEqual(config, { foo: 'bar'})
+    })
+    test('should load beta config file', () => {
+      process.env.NODE_ENV = 'beta'
+      let config = p.load_config()
+      assert.deepEqual(config, { foo: 'baz'})
+    })
+  })
 })
