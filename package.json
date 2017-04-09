@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/onlinemad/node-poketto#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
     "debug": "^2.6.3"
   }
 }
