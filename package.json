@@ -1,7 +1,7 @@
 {
   "name": "poketto",
   "version": "0.0.8",
-  "description": "useful Node.js function collection",
+  "description": "Useful Node.js functions.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/onlinemad/node-poketto#readme",
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "4.2.0"
   },
   "dependencies": {
-    "debug": "^2.6.3"
+    "debug": "4.1.1"
   }
 }

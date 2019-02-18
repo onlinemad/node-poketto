@@ -4,30 +4,6 @@ const assert = require('chai').assert
 const p = require('../index')
 
 suite('poketto', () => {
-  suite('format_phone_with_dash', () => {
-    test('should format phone number from 0919919919 to 0919-919919', () => {
-      let phone = '0919919919'
-      assert.equal(p.format_phone_with_dash(phone), '0919-919919')
-    })
-    test('should format phone number from +886919919919 to 0919-919919', () => {
-      let phone = '+886919919919'
-      assert.equal(p.format_phone_with_dash(phone), '0919-919919')
-    })
-    test('should not format phone number if number is 0919-919919', () => {
-      let phone = '0919-919919'
-      assert.equal(p.format_phone_with_dash(phone), '0919-919919')
-    })
-  })
-  suite('format_phone_without_dash', () => {
-    test('should format phone number from +886919919919 to 0919919919', () => {
-      let phone = '+886919919919'
-      assert.equal(p.format_phone_without_dash(phone), '0919919919')
-    })
-    test('should format phone number from 0919-919919 to 0919919919', () => {
-      let phone = '0919-919919'
-      assert.equal(p.format_phone_without_dash(phone), '0919919919')
-    })
-  })
   suite('random_str', () => {
     test('should generate a random string that length = 10', () => {
       let str = p.random_str(10)

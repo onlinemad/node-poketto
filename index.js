@@ -1,1 +1,1 @@
-module.exports = require('./lib/poketto');
+module.exports = require('./lib/poketto')
